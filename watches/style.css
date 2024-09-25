@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+span {
+    display: inline-block;
+}
+ul {
+    list-style: none;
+}
+.grayText {
+    color: #919191;
+}
+.heading {
+    text-transform: uppercase;
+    color: #212529;
+    margin-bottom: 10px;
+}
+.lightBlue {
+    color: #72AEC8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+#hero {
+    background-color: #edf1f3;
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.btn {
+    background-color: #212529;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 20px;
+}
+
+#features {
+    padding: 70px 0;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.ed-right {
+    display: flex;
+}
